@@ -11,7 +11,7 @@ describe( 'Server Test', () => {
       expect(res.statusCode).toEqual(200);
       expect(res.body). toEqual({
           status: true,
-          message: 'Hello World'
+          message: 'Hello Worlds'
 
       });
     })
