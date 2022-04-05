@@ -1,9 +1,10 @@
-Lmage: node
+image: node
+
 build:
   script:
       - npm install
   artifacts:
-    expire in: 1 days
+    expirein: 1 days
     when: on_success
     paths:
         - node_modules/
